@@ -3,6 +3,7 @@
   "displayName": "HTML TO CSS",
   "description": "La extensión **HTML TO CSS** para Visual Studio Code simplifica el proceso de crear estilos CSS a partir de clases e IDs definidos en archivos HTML",
   "version": "0.0.1",
+  "publisher": "JostyTafur",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -17,6 +18,10 @@
     "onLanguage:typescript",
     "onLanguage:typescriptreact"
   ],
+  "galleryBanner": {
+    "color": "#007ACC",
+    "theme": "dark"
+  },
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
