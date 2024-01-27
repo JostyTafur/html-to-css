@@ -34,4 +34,4 @@ La extensión **HTML TO CSS** para Visual Studio Code simplifica el proceso de c
 
 ## Contribuciones
 
-Si encuentras algún problema o tienes sugerencias para mejorar la extensión, no dudes en abrir un [issue](https://github.com/JostyTafur/css-through-html) en nuestro repositorio en GitHub. ¡Estamos abiertos a colaboraciones!
+Si encuentras algún problema o tienes sugerencias para mejorar la extensión, no dudes en abrir un [issue](https://github.com/JostyTafur/html-to-css) en nuestro repositorio en GitHub. ¡Estamos abiertos a colaboraciones!
