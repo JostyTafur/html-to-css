@@ -1,0 +1,118 @@
+{
+  "name": "html-to-css",
+  "displayName": "HTML TO CSS",
+  "description": "La extensión **HTML TO CSS** para Visual Studio Code simplifica el proceso de crear estilos CSS a partir de clases e IDs definidos en archivos HTML",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "repository": "https://github.com/tu-usuario/tu-repositorio.git",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "html-to-css.createCSS",
+        "title": "Include on CSS"
+      },
+      {
+        "command": "html-to-css.createAllCSS",
+        "title": "Include All on CSS"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact'",
+          "command": "html-to-css.createCSS",
+          "group": "navigation"
+        },
+        {
+          "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact'",
+          "command": "html-to-css.createAllCSS",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "languages": [
+    {
+      "id": "html",
+      "extensions": [
+        ".html"
+      ],
+      "aliases": [
+        "HTML",
+        "xml"
+      ]
+    },
+    {
+      "id": "javascript",
+      "extensions": [
+        ".js"
+      ],
+      "aliases": [
+        "JavaScript",
+        "javascript"
+      ]
+    },
+    {
+      "id": "javascriptreact",
+      "extensions": [
+        ".jsx"
+      ],
+      "aliases": [
+        "JavaScript React",
+        "javascriptreact"
+      ]
+    },
+    {
+      "id": "typescript",
+      "extensions": [
+        ".ts"
+      ],
+      "aliases": [
+        "TypeScript",
+        "typescript"
+      ]
+    },
+    {
+      "id": "typescriptreact",
+      "extensions": [
+        ".tsx"
+      ],
+      "aliases": [
+        "TypeScript React",
+        "typescriptreact"
+      ]
+    }
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  }
+}
