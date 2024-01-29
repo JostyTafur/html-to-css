@@ -1,37 +1,37 @@
-# HTML TO CSS Extension for Visual Studio Code
+# CSS through HTML Extension for Visual Studio Code
 
-La extensión **HTML TO CSS** para Visual Studio Code simplifica el proceso de crear estilos CSS a partir de clases e IDs definidos en archivos HTML. Esta herramienta te permite generar reglas CSS rápidamente, mejorando la eficiencia en el desarrollo de tus proyectos web.
+The **CSS through HTML** extension for Visual Studio Code simplifies the process of creating CSS styles from classes and IDs defined in HTML files. This tool allows you to quickly generate CSS rules, improving efficiency in the development of your web projects.
 
-## SOPORTE PARA:
+## SUPPORT FOR:
 
 - HTML
 - REACT
 - ANGULAR
 
-## Características
+## Features
 
-- **Creación Rápida de Estilos:** Genera reglas CSS automáticamente a partir de las clases e IDs encontrados en el código HTML seleccionado.
+- **Quick Style Creation:** Automatically generates CSS rules from classes and IDs found in the selected HTML code.
 
-- **Soporte para Clases y IDs:** Reconoce tanto las clases (`class`) como los IDs (`id`) en el código HTML.
+- **Support for Classes and IDs:** Recognizes both classes (`class`) and IDs (`id`) in the HTML code.
 
-- **Creación de Archivos CSS:** Crea automáticamente archivos CSS en la misma carpeta que el archivo HTML activo, si no existen.
+- **CSS File Creation:** Automatically creates CSS files in the same folder as the active HTML file if they do not exist.
 
-- **Integración con Visual Studio Code:** Accede a las funcionalidades de la extensión directamente desde Visual Studio Code, mejorando tu flujo de trabajo.
+- **Integration with Visual Studio Code:** Access extension functionalities directly from Visual Studio Code, enhancing your workflow.
 
-## Instrucciones de Uso
+## Usage Instructions
 
-1. Selecciona el código HTML del cual deseas generar estilos CSS.
+1. Select the HTML code from which you want to generate CSS styles.
 
-2. Ejecuta la extensión desde el menú de comandos de Visual Studio Code.
-   - Para una selección específica, utiliza el comando `HTML TO CSS: Include on CSS`.
-   - Para generar estilos a partir de todo el contenido HTML, utiliza `HTML TO CSS: Include All CSS`.
+2. Run the extension from the Visual Studio Code command menu.
+   - For a specific selection, use the command `CSS through HTML: Include on CSS`.
+   - To generate styles from the entire HTML content, use `CSS through HTML: Include All CSS`.
 
-3. Otra opción (y la más práctica) es por medio de la opcion por el menú de acciones del click derecho, los cuales poseen los mismos nombres
+3. Another option (and the most practical one) is through the right-click context menu, which has the same names.
 
-3. La extensión creará automáticamente reglas CSS basadas en las clases e IDs encontrados.
+4. The extension will automatically create CSS rules based on the classes and IDs found.
 
-4. Los estilos se insertarán en un archivo CSS existente o se creará uno nuevo en la misma carpeta que el archivo HTML activo.
+5. The styles will be inserted into an existing CSS file or a new one will be created in the same folder as the active HTML file.
 
-## Contribuciones
+## Contributions
 
-Si encuentras algún problema o tienes sugerencias para mejorar la extensión, no dudes en abrir un [issue](https://github.com/JostyTafur/html-to-css) en nuestro repositorio en GitHub. ¡Estamos abiertos a colaboraciones!
+If you encounter any issues or have suggestions to improve the extension, feel free to open an [issue](https://github.com/JostyTafur/html-to-css) on our GitHub repository. We welcome collaborations!

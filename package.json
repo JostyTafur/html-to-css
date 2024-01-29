@@ -1,7 +1,7 @@
 {
-  "name": "html-to-css",
-  "displayName": "HTML TO CSS",
-  "description": "La extensión **HTML TO CSS** para Visual Studio Code simplifica el proceso de crear estilos CSS a partir de clases e IDs definidos en archivos HTML",
+  "name": "css-through-html",
+  "displayName": "CSS Through HTML",
+  "description": "La extensión **CSS Through HTML** para Visual Studio Code simplifica el proceso de crear estilos CSS a partir de clases e IDs definidos en archivos HTML",
   "version": "0.0.1",
   "publisher": "JostyTafur",
   "engines": {
@@ -26,11 +26,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "html-to-css.createCSS",
+        "command": "css-through-html.createCSS",
         "title": "Include on CSS"
       },
       {
-        "command": "html-to-css.createAllCSS",
+        "command": "css-through-html.createAllCSS",
         "title": "Include All on CSS"
       }
     ],
@@ -38,12 +38,12 @@
       "editor/context": [
         {
           "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact'",
-          "command": "html-to-css.createCSS",
+          "command": "css-through-html.createCSS",
           "group": "navigation"
         },
         {
           "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact'",
-          "command": "html-to-css.createAllCSS",
+          "command": "css-through-html.createAllCSS",
           "group": "navigation"
         }
       ]

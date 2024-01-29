@@ -4,7 +4,7 @@ import * as path from "path";
 
 export function activate(context: vscode.ExtensionContext) {
   let includeOne = vscode.commands.registerCommand(
-    "html-to-css.createCSS",
+    "css-through-html.createCSS",
     () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {
@@ -81,7 +81,7 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   let includeAll = vscode.commands.registerCommand(
-    "html-to-css.createAllCSS",
+    "css-through-html.createAllCSS",
     () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {
