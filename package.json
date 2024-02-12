@@ -2,11 +2,12 @@
   "name": "css-through-html",
   "displayName": "CSS Through HTML",
   "description": "La extensión **CSS Through HTML** para Visual Studio Code simplifica el proceso de crear estilos CSS a partir de clases e IDs definidos en archivos HTML",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "JostyTafur",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "icon": "icon.png",
   "repository": "https://github.com/JostyTafur/html-to-css",
   "categories": [
     "Other"
