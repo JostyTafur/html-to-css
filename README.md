@@ -24,9 +24,9 @@ The **CSS through HTML** extension for Visual Studio Code simplifies the process
 
 2. Run the extension from the Visual Studio Code command menu or through the right-click context menu.
    - For a specific selection, use the command `CSS through HTML: Include on CSS`.
-   ![]([https://github.com/JostyTafur/html-to-css/IncludeOne.gif](https://github.com/JostyTafur/html-to-css/blob/master/assets/IncludeAll.gif))
+   ![](https://github.com/JostyTafur/html-to-css/blob/master/assets/IncludeAll.gif)
    - To generate styles from the entire HTML content, use `CSS through HTML: Include All CSS`.
-   ![]([https://github.com/JostyTafur/html-to-css/IncludeAll.gif](https://github.com/JostyTafur/html-to-css/blob/master/assets/IncludeOne.gif))
+   ![](https://github.com/JostyTafur/html-to-css/blob/master/assets/IncludeOne.gif)
 
 3. The extension will automatically create CSS rules based on the classes and IDs found.
 
