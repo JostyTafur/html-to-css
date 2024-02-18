@@ -2,7 +2,7 @@
   "name": "css-through-html",
   "displayName": "CSS Through HTML",
   "description": "La extensión **CSS Through HTML** para Visual Studio Code simplifica el proceso de crear estilos CSS a partir de clases e IDs definidos en archivos HTML",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "publisher": "JostyTafur",
   "engines": {
     "vscode": "^1.85.0"
@@ -14,6 +14,9 @@
   ],
   "activationEvents": [
     "onLanguage:html",
+    "onLanguage:vue",
+    "onLanguage:svelte",
+    "onLanguage:astro",
     "onLanguage:javascript",
     "onLanguage:javascriptreact",
     "onLanguage:typescript",
@@ -38,12 +41,12 @@
     "menus": {
       "editor/context": [
         {
-          "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact'",
+          "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact' || editorLangId == 'vue' || editorLangId == 'svelte' || editorLangId == 'astro'",
           "command": "css-through-html.createCSS",
           "group": "navigation"
         },
         {
-          "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact'",
+          "when": "editorLangId == 'html' || editorLangId == 'javascript' || editorLangId == 'javascriptreact' || editorLangId == 'typescript' || editorLangId == 'typescriptreact' || editorLangId == 'vue' || editorLangId == 'svelte' || editorLangId == 'astro'",
           "command": "css-through-html.createAllCSS",
           "group": "navigation"
         }
@@ -99,6 +102,36 @@
       "aliases": [
         "TypeScript React",
         "typescriptreact"
+      ]
+    },
+    {
+      "id": "vue",
+      "extensions": [
+        ".vue"
+      ],
+      "aliases": [
+        "Vue",
+        "vue"
+      ]
+    },
+    {
+      "id": "svelte",
+      "extensions": [
+        ".svelte"
+      ],
+      "aliases": [
+        "Svelte",
+        "svelte"
+      ]
+    },
+    {
+      "id": "astro",
+      "extensions": [
+        ".astro"
+      ],
+      "aliases": [
+        "Astro",
+        "astro"
       ]
     }
   ],
