@@ -27,17 +27,17 @@ The **CSS through HTML** extension for Visual Studio Code simplifies the process
 
 2. Run the extension from the Visual Studio Code command menu or through the right-click context menu.
    - For a specific selection, use the command `CSS through HTML: Include on CSS`.
-      **For files that use CSS in a separate file (HTML, React, Angular)**
-      ![](https://raw.githubusercontent.com/JostyTafur/html-to-css/master/assets/IncludeOne.gif)
+      - **For files that use CSS in a separate file (HTML, React, Angular)**
+      ![](https://raw.githubusercontent.com/JostyTafur/html-to-css/master/assets/IncludeOneFile.gif)
 
-      **For files that use the style tag in the same file (Vue, Svelte, Astro)**
+      - **For files that use the style tag in the same file (Vue, Svelte, Astro)**
       ![](https://raw.githubusercontent.com/JostyTafur/html-to-css/master/assets/IncludeOneTag.gif)
 
    - To generate styles from the entire HTML content, use `CSS through HTML: Include All CSS`.
-      **For files that use CSS in a separate file (HTML, React, Angular)**
-      ![](https://raw.githubusercontent.com/JostyTafur/html-to-css/master/assets/IncludeAll.gif)
+      - **For files that use CSS in a separate file (HTML, React, Angular)**
+      ![](https://raw.githubusercontent.com/JostyTafur/html-to-css/master/assets/IncludeAllFile.gif)
 
-      **For files that use the style tag in the same file (Vue, Svelte, Astro)**
+      - **For files that use the style tag in the same file (Vue, Svelte, Astro)**
       ![](https://raw.githubusercontent.com/JostyTafur/html-to-css/master/assets/IncludeAllTag.gif)
 
 3. The extension will automatically create CSS rules based on the classes and IDs found.
